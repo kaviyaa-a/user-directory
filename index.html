@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        input{
+            border: solid rgb(210,210,210) 1px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid border text-center rounded-2 mt-3 " style="max-width: 400px;">
+        <h6>User Directory</h6>
+        <div class="row gap-3 mx-2">
+            <input class="col-8 pb-2" id="searchInput" type="text" placeholder="Enter a name">
+            <button id="searchBtn" class="col-3 btn btn-secondary">Search</button>
+        </div>
+        <p id="text"></p>
+        <div class="userList"></div>
+        <button id="retryBtn" class="btn btn-primary d-none">Retry</button>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
